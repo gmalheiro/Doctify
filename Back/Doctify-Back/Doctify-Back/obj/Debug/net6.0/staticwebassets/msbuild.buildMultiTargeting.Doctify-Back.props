@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Doctify-Back.props" />
+</Project>

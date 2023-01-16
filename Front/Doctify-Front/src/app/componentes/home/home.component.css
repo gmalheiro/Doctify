@@ -1,0 +1,113 @@
+.content-box{
+  display: flex;
+  align-items: center;
+  border-radius: 2.438em;
+  padding: 0.313em;
+  text-align: justify;
+}
+
+@media screen and (max-width: 425px) {
+  .content-box {
+    flex-wrap: wrap;
+  }
+}
+
+
+.content-caption {
+  width: 100%;
+}
+
+.first {
+  font-weight: bold;
+  font-size: 48.4513px;
+  line-height: 53px;
+  color: #307fe2;
+}
+
+
+.second{
+  font-weight: bold;
+  color: #404040;
+  font-size: 24.4513px;
+}
+
+.img-box {
+width: 100%;
+object-fit: cover;
+}
+
+.main-img{
+  width: 100%;
+  height: 100%;
+}
+
+.benefits-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-container{
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.5) 1.5px 1.5px ;
+}
+
+.card-image{
+  height: 2.5em;
+  width: 2.5em;
+  object-fit: cover;
+}
+
+.doctors-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.doctors-card{
+  min-height: 30vh;
+  max-height:35vh;
+  border-radius: 30px;
+}
+
+.card-shadow{
+  box-shadow: rgba(0, 0, 0, 0.5) 1.5px 1.5px ;
+}
+
+
+.doctors-name{
+    font-weight: bold;
+    color: #404040;
+    font-size: 24.4513px;
+}
+
+.newsletter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.newsletter-text{
+  font-weight: bold;
+  color: #404040;
+  font-size: 1.52820625em;
+}
+
+@media screen and (max-width: 425px) {
+  .newsletter {
+    max-width: 80vw;
+  }
+  .newsletter-text{
+    font-size: 1em;
+  }
+}
+
+
+/* Others code */
