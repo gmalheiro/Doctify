@@ -24,8 +24,4 @@
     <Folder Include="DTO\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Doctify-Back\Doctify-Back.csproj" />
-  </ItemGroup>
-
 </Project>

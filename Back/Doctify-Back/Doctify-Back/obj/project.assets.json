@@ -1242,6 +1242,20 @@
             "rid": "win"
           }
         }
+      },
+      "Doctify-Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Doctify-Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Doctify-Data.dll": {}
+        }
       }
     }
   },
@@ -3925,10 +3939,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Doctify-Data/1.0.0": {
+      "type": "project",
+      "path": "../Doctify-Data/Doctify-Data.csproj",
+      "msbuildProject": "../Doctify-Data/Doctify-Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Doctify-Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
@@ -3962,7 +3982,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\g.silva.malheiro\\Documents\\Programming\\Projects\\Doctify\\Back\\Doctify-Back\\Doctify-Data\\Doctify-Data.csproj": {
+              "projectPath": "C:\\Users\\g.silva.malheiro\\Documents\\Programming\\Projects\\Doctify\\Back\\Doctify-Back\\Doctify-Data\\Doctify-Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
