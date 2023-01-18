@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Doctify_Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Doctify_Data.Context;
+namespace Doctify_Data.Repository.Context;
 
 public partial class DoctifyContext : DbContext
 {
